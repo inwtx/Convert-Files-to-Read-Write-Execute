@@ -31,8 +31,6 @@ sed -i '1d' $filePath/tempCRWE1.txt            # delete line 1 in file
            #d123456789
 bucket1=0  #-rwx------   ${line1:1:1}
 
-#c=10 && c=$((c + 9)) && echo "$c"
-
 while read line1; do
       if [[ ${line1:1:1} = 'r' ]]; then  # r owner
          bucket1=$((bucket1 + 400))
