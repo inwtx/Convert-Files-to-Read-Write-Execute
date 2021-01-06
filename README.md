@@ -12,7 +12,10 @@ ls -lA
 600 -rw------- 1 root root 2070 Jun 18 2017 .viminfo  
 644 -rw-r--r-- 1 root root 215 Nov 16 16:46 .wget-hsts  
   
+.bashrc alias:  
+alias fo='/root/CvtReadWriteExecute.sh'  # list file parameters  
 
+  
 ```
 #!/bin/bash
 #
